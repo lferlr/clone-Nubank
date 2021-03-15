@@ -12,6 +12,8 @@ target 'Nubank' do
     :hermes_enabled => false
   )
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'NubankTests' do
     inherit! :complete
     # Pods for testing
